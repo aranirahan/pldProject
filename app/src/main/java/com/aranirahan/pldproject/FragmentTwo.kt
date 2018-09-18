@@ -27,6 +27,11 @@ class FragmentTwo : Fragment(), AnkoComponent<Context> {
         myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
         myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
         myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        myBooks.add(MyBook("Koding Malam", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        myBooks.add(MyBook("Belajar Menulis", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
         myBooks.add(MyBook("Title Book", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
 
         adapter = MyBookAdapter(myBooks) {}
@@ -54,10 +59,10 @@ class FragmentTwo : Fragment(), AnkoComponent<Context> {
             rightPadding = dip(16)
 
             listMyBook = recyclerView {
-                lparams(width = matchParent, height = wrapContent){
+                lparams(width = matchParent, height = wrapContent) {
                     this@linearLayout.gravity = Gravity.CENTER_HORIZONTAL
                 }
-                layoutManager = GridLayoutManager(ctx,2)
+                layoutManager = GridLayoutManager(ctx, 2)
             }
         }
     }

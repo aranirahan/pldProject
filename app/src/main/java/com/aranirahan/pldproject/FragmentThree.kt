@@ -28,6 +28,12 @@ class FragmentThree : Fragment(), AnkoComponent<Context> {
         allBook.add(AllBook("Fisika", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
         allBook.add(AllBook("Kimia", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
         allBook.add(AllBook("Biologi", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        allBook.add(AllBook("Bahasa Indonesia", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        allBook.add(AllBook("Matematika", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        allBook.add(AllBook("Bahasa Inggris", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        allBook.add(AllBook("Fisika", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        allBook.add(AllBook("Kimia", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
+        allBook.add(AllBook("Biologi", "http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/book-icon.png"))
 
         adapter = AllBookAdapter(allBook) {}
         listMyBook.adapter = adapter
