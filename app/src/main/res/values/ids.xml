@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iv_my_book" type="id">iv_my_book</item>
+    <item name="tv_title_book" type="id">tv_title_book</item>
+
+</resources>
